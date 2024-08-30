@@ -25,6 +25,17 @@ li {
   transition: background-color 0.3s ease;
 }
 
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  li {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  li {
+    width: 25%;
+  }
+}
+
 li:hover a {
   transform: translateX(5%);
   cursor: pointer;
